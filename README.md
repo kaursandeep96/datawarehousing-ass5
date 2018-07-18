@@ -28,7 +28,7 @@ OUTPUT @subquery1
     TO "/output/query1.csv"
     USING Outputters.Csv(outputHeader: true);
 ```	
-	
+
 ## QUERY 2:
 ```
 @trafficschema =
@@ -60,8 +60,7 @@ OUTPUT @subquery2
     TO "/output/query2.csv"
     USING Outputters.Csv(outputHeader: true);
 ```
-	
-	
+
 ## QUERY 3:
 ```
 @trafficschema =
@@ -90,7 +89,7 @@ OUTPUT @subquery2
 OUTPUT @subquery1  
     TO "/output/query3.csv"
     USING Outputters.Csv(outputHeader: true);
-	
+```
 	
 ## QUERY 4:
 @trafficschema =
@@ -119,8 +118,7 @@ OUTPUT @subquery1
     TO "/output/query4.csv"
     USING Outputters.Csv(outputHeader: true);
  ```
-	
-	
+
 ## QUERY 5:
 ```
 @trafficschema =
