@@ -92,6 +92,7 @@ OUTPUT @subquery1
 ```
 	
 ## QUERY 4:
+```
 @trafficschema =
     EXTRACT Tcs_id  int,
             Main    string,
@@ -117,7 +118,7 @@ OUTPUT @subquery1
 OUTPUT @subquery1  
     TO "/output/query4.csv"
     USING Outputters.Csv(outputHeader: true);
- ```
+```
 
 ## QUERY 5:
 ```
